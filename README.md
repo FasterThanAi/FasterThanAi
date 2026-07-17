@@ -19,7 +19,7 @@
 
 
 <p align="center">
-🎓 3rd-year CSE undergrad @ IIITDM Kurnool &nbsp;|&nbsp; 🎯 GATE 2026 Qualified &nbsp;|&nbsp; 🤖 Building AI-powered full-stack systems
+🎓 Final-year CSE undergrad @ IIITDM Kurnool &nbsp;|&nbsp; 🎯 GATE 2026 Qualified &nbsp;|&nbsp; 🤖 Building AI-powered full-stack systems
 </p>
 
 
