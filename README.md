@@ -1,106 +1,48 @@
-![](https://komarev.com/ghpvc/?username=FasterThanAi&color=BD93F9)
+# Priyanshu Kumar
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2500&pause=2000&color=BD93F9&center=true&vCenter=true&width=850&lines=Hey+there!+I'm+Priyanshu+Kumar+👋;Full-Stack+Developer+%26+AI/ML+Enthusiast+🤖;GATE+2026+Qualified+(CS)+🎯;Turning+Ideas+into+Intelligent+Systems+🚀" alt="Typing SVG" />
-</div>
+Final-year Computer Science undergraduate at IIITDM Kurnool (B.Tech, 2027). I research open-vocabulary semantic segmentation for remote sensing imagery and build backend and AI/ML systems. Currently looking for backend or AI/ML engineering roles.
 
+[LinkedIn](https://www.linkedin.com/in/priyanshu-kumar-982b5a354/) · [priyanshu.kr.cs@gmail.com](mailto:priyanshu.kr.cs@gmail.com)
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/priyanshu-kumar-982b5a354">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:demeanor404@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://github.com/FasterThanAi">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</div>
+## Experience
 
+**AI & DS Engineer Intern** · Rusborn Private Limited · Remote · May–Aug 2026
 
-<p align="center">
-🎓 Final-year CSE undergrad @ IIITDM Kurnool &nbsp;|&nbsp; 🎯 GATE 2026 Qualified &nbsp;|&nbsp; 🤖 Building AI-powered full-stack systems
-</p>
+- Built an end-to-end AI lead-generation agent in Python that automates prospect discovery, web data extraction, enrichment and qualification.
+- Implemented the qualification layer on LLM APIs, parsing unstructured company data into structured fields and scoring leads.
+- Deployed the MVP as a REST API with OpenAPI docs on Render and a React frontend on Vercel: [Frontend](https://ai-lead-generation-mvp.vercel.app/) · [API docs](https://ai-lead-generation-mvp.onrender.com/docs)
+- Developed and evaluated ML models for industrial-training use cases.
 
+## Research
 
-## 🧠 What I'm Building
+**FreeTraining-OVSS** · Undergraduate research, IIITDM Kurnool · Ongoing · [GitHub](https://github.com/FasterThanAi/FreeTraining-OVSS)
 
-| Project                                     | Stack                                                        | What it does                                                 |
-| ------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 🎯 **AI Screener – Recruitment Pipeline**    | Node.js · Express · FastAPI · Sentence-Transformers (BERT) · Gemini 2.5 Flash | A high-performance recruitment backend that semantically matches resumes to roles using BERT embeddings + cosine similarity, runs a Gemini-powered AI interviewer with auto-generated assessment reports, and triggers secure magic-link notifications for top candidates. Hardened with IP rate-limiting for 99% upload uptime. CODE --> https://github.com/FasterThanAi/AI-Screener-Project-Backend- |
-| 🏪 **Local Shop Inventory & Billing System** | MERN Stack · MongoDB                                         | A high-performance inventory and billing system for local retailers — optimized MongoDB schemas managing 1000+ SKU records, real-time sales analytics via aggregation pipelines, and automated digital invoice generation. |
-| 🏠 **Hostel Management System**              | React · Tailwind CSS · Node.js · MySQL                       | A full-stack platform replacing manual hostel paperwork with a centralized dashboard for room allocation and student records, backed by secure RESTful APIs. LIVE --> https://hostelmanagementsystem-rho.vercel.app/ · CODE --> https://github.com/Vermadeepakd1/hostel-management-frontend |
+Training-free open-vocabulary semantic segmentation of remote sensing imagery, using PyTorch, SAM 3, DINOv3 and mmsegmentation.
 
-## 👨‍💻 About Me
+- Reproduced the SegEarth-OV3 baseline on the LoveDA validation set (1,669 images), matching the published 47.38 mIoU.
+- Diagnosed its dominant failure mode: at the paper's operating threshold, 29.68% of real land-cover pixels are discarded as background. Relaxing the threshold recovers two-thirds of them at a cost of 5.54 mIoU.
+- Now validating a semantic co-occurrence prior over SAM 3 region proposals to recover those pixels, formulated as energy minimisation with DINOv3 feature-similarity and PMI-based semantic terms. Measured 1.3–1.7 bits of class-pair signal against a 0.004-bit noise floor.
 
-```javascript
-const priyanshu = {
-    name: "Priyanshu Kumar",
-    role: "Full-Stack Developer | AI/ML Enthusiast",
-    education: "B.Tech CSE, IIITDM Kurnool (2023 – 2027)",
-    location: "Kurnool, India",
+## Projects
 
-    expertise: {
-        languages: ["C", "C++", "Python", "JavaScript", "SQL"],
-        backend: ["Node.js", "Express.js", "MongoDB", "MySQL", "REST APIs", "Docker"],
-        aiml: ["Computer Vision", "NLP", "Deep Learning", "OpenCV", "TensorFlow", "Gemini 2.5 Flash"],
-        fundamentals: ["DSA", "OOP", "DBMS", "Operating Systems", "Computer Networks", "TOC"]
-    },
+| Project | Description | Stack |
+| --- | --- | --- |
+| **AI-Powered Blogging Platform**<br>[Live demo](https://my-blog-page-omega.vercel.app/) · [Code](https://github.com/FasterThanAi/My-Blog-Page) | AI-assisted editor on the Gemini API with streaming generation, summarisation, auto-tagging and ghost-text autocompletion over Server-Sent Events. Multi-tenant Supabase backend with role-based access control and Row-Level Security. | Next.js, TypeScript, Supabase, Gemini API, TipTap |
+| **AI Screener**<br>[Code](https://github.com/FasterThanAi/AI-Screener-Project-Backend-) | Recruitment backend that matches resumes to roles using Sentence-Transformers embeddings and cosine similarity, runs a Gemini-powered AI interview with an auto-generated assessment report, and sends magic-link notifications to top candidates. | Node.js, Express, FastAPI, Sentence-Transformers, Gemini |
+| **Hostel Management System**<br>[Live demo](https://hostelmanagementsystem-rho.vercel.app/) · [Code](https://github.com/Vermadeepakd1/hostel-management-frontend) | Replaces manual hostel paperwork with a central dashboard for room allocation and student records, backed by REST APIs. | React, Tailwind CSS, Node.js, MySQL |
 
-    currentlyExploring: ["Agentic AI Systems", "Retrieval-Augmented Generation (RAG)", "Scalable Backend Architecture"],
+## Skills
 
-    funFact: "// add something fun about yourself here 👀"
-};
-```
+- **Languages:** Python, C++, C, JavaScript, TypeScript, SQL
+- **AI/ML:** PyTorch, scikit-learn, NumPy, pandas, OpenCV, mmsegmentation, SAM 3, CLIP, DINOv3, Gemini API, RAG
+- **Backend:** FastAPI, Node.js, Express.js, REST APIs, Server-Sent Events, authentication and RBAC
+- **Frontend:** React, Next.js, Tailwind CSS
+- **Databases:** PostgreSQL, MySQL, MongoDB, Supabase
+- **Tools:** Git, Docker, Linux, Postman, Vercel, Render
 
-## 🛠️ Tech Stack
+## Achievements
 
-<div align="center">
-
-
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,nodejs,express,mongodb,mysql,docker,git,github,opencv,tensorflow,react,tailwind" />
-
-</div>
-
-## 🏆 Achievements
-
-- 🎯 **GATE 2026 Qualified (CS)** — All India Rank **13,875** / 211,020 candidates, as a 3rd-year student (Score: 431) · [View Scorecard](https://drive.google.com/file/d/1yZuSO0jcR5st0aRNS1TGybNOXKUmRGL0/view?usp=share_link)
-- 🏅 **4th Place** — GDG Solasta Hackathon 2025, among 50+ competing teams
-- 🏅 **4th Place** — BIT Squad Coding 2026, among 22+ competing teams
-- 🔌 Completed an intensive **IoT Skill Development** certification in hardware-software integration
-- 🤝 Led **12 volunteers** as NSS Village Tour Coordinator, running a community outreach program for 100+ residents
-
-## 🌱 Currently Exploring
-
-<div style="display:flex; flex-wrap:wrap; gap:8px;">
-  <img src="https://img.shields.io/badge/Agentic%20AI-black?style=for-the-badge&logo=openai&logoColor=white" alt="Agentic AI"/>
-  <img src="https://img.shields.io/badge/RAG%20Pipelines-412991?style=for-the-badge&logo=openai&logoColor=white" alt="RAG Pipelines"/>
-  <img src="https://img.shields.io/badge/System%20Design-0A66C2?style=for-the-badge&logo=leetcode&logoColor=white" alt="System Design"/>
-</div>
-
-
-## 🤝 Let's Collaborate
-
-- 💡 Open to backend & AI/ML collaborations, open-source contributions, and internship opportunities
-- 📫 Reach me at **demeanor404@gmail.com**
-
-### ⚡ Fun fact
-
-> Add something fun about yourself here!
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FasterThanAi&theme=dracula&hide_border=true&layout=compact&langs_count=8" height="180em" alt="Top Languages"/>
-</div>
-
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FasterThanAi&theme=dracula&hide_border=true" width="95%">
-</div>
-
-
-<div align="center">
-
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=FasterThanAi&theme=dracula&hide_border=true)](https://git.io/streak-stats)
-
-</div>
+- 4th place out of 50+ teams, GDG Solasta Hackathon 2025
+- 4th place in two BitSquad competitive programming contests, IIITDM Kurnool
+- LeetCode rating 1663 · CodeChef 2★ (1450)
+- Qualified GATE 2026 (CS) as a third-year student: AIR 13,875 of 211,020 candidates ([scorecard](https://drive.google.com/file/d/1yZuSO0jcR5st0aRNS1TGybNOXKUmRGL0/view?usp=share_link))
