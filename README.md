@@ -50,8 +50,8 @@ Training-free open-vocabulary semantic segmentation of remote sensing imagery, u
 ## GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=FasterThanAi&show_icons=true&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff">
-  <img src="https://github-readme-stats.vercel.app/api?username=FasterThanAi&show_icons=true&hide_border=true&bg_color=00000000&title_color=0969da&text_color=1f2328&icon_color=0969da" alt="GitHub stats and contribution grade for FasterThanAi" height="170">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=FasterThanAi&show_icons=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff">
+  <img src="https://github-readme-stats.vercel.app/api?username=FasterThanAi&show_icons=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=0969da&text_color=1f2328&icon_color=0969da" alt="GitHub stats and contribution grade for FasterThanAi" height="170">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FasterThanAi&layout=compact&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9">
