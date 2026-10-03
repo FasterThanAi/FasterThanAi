@@ -46,3 +46,19 @@ Training-free open-vocabulary semantic segmentation of remote sensing imagery, u
 - 4th place in two BitSquad competitive programming contests, IIITDM Kurnool
 - LeetCode rating 1663 · CodeChef 2★ (1450)
 - Qualified GATE 2026 (CS) as a third-year student: AIR 13,875 of 211,020 candidates ([scorecard](https://drive.google.com/file/d/1yZuSO0jcR5st0aRNS1TGybNOXKUmRGL0/view?usp=share_link))
+
+## GitHub
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=FasterThanAi&show_icons=true&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff">
+  <img src="https://github-readme-stats.vercel.app/api?username=FasterThanAi&show_icons=true&hide_border=true&bg_color=00000000&title_color=0969da&text_color=1f2328&icon_color=0969da" alt="GitHub stats and contribution grade for FasterThanAi" height="170">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FasterThanAi&layout=compact&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FasterThanAi&layout=compact&hide_border=true&bg_color=00000000&title_color=0969da&text_color=1f2328" alt="Most used languages" height="170">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FasterThanAi/FasterThanAi/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/FasterThanAi/FasterThanAi/output/github-snake.svg" alt="Snake eating my contribution graph">
+</picture>
