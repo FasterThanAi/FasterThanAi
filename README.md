@@ -1,8 +1,15 @@
-# Priyanshu Kumar
+<p>
+<a href="https://priyanshu-kumar-five.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" width="100%" alt="Priyanshu Kumar — portfolio banner: a land-cover map being segmented, one class per section. Click to open the interactive portfolio.">
+  </picture>
+</a>
+</p>
 
 Final-year Computer Science undergraduate at IIITDM Kurnool (B.Tech, 2027). I research open-vocabulary semantic segmentation for remote sensing imagery and build backend and AI/ML systems. Currently looking for backend or AI/ML engineering roles.
 
-[LinkedIn](https://www.linkedin.com/in/priyanshu-kumar-982b5a354/) · [priyanshu.kr.cs@gmail.com](mailto:priyanshu.kr.cs@gmail.com)
+**[Interactive portfolio ↗](https://priyanshu-kumar-five.vercel.app)** · [LinkedIn](https://www.linkedin.com/in/priyanshu-kumar-982b5a354/) · [priyanshu.kr.cs@gmail.com](mailto:priyanshu.kr.cs@gmail.com)
 
 ## Experience
 
@@ -15,7 +22,7 @@ Final-year Computer Science undergraduate at IIITDM Kurnool (B.Tech, 2027). I re
 
 ## Research
 
-**FreeTraining-OVSS** · Undergraduate research, IIITDM Kurnool · Ongoing · [GitHub](https://github.com/FasterThanAi/FreeTraining-OVSS)
+**FreeTraining-OVSS** · Undergraduate research, IIITDM Kurnool · Ongoing · Code is in a private repo — [request access](mailto:priyanshu.kr.cs@gmail.com?subject=Access%20request%3A%20FreeTraining-OVSS)
 
 Training-free open-vocabulary semantic segmentation of remote sensing imagery, using PyTorch, SAM 3, DINOv3 and mmsegmentation.
 
